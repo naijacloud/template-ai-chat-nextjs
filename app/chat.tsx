@@ -83,6 +83,9 @@ export default function Chat() {
           {busy ? 'Thinking…' : 'Send'}
         </button>
       </form>
+      <div className="nc-foot">
+        <a className="nc-badge" href="https://naijacloud.com/?ref=template-ai-chat-nextjs"><span className="nc-mark" aria-hidden="true">NC</span><span>Deployed on <b>Naijacloud</b></span></a>
+      </div>
     </section>
   );
 }
