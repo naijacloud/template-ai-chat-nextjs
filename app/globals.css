@@ -31,3 +31,12 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 .setup li.missing span { color: #a6312f; font-size: 14px; }
 .setup li.set span { color: var(--green); font-size: 14px; }
 .hint { color: var(--subtle); line-height: 1.7; }
+
+/* "Deployed on Naijacloud". Remove it, or keep it as a thank-you. */
+.nc-badge { display: inline-flex; align-items: center; gap: 8px; color: var(--subtle); text-decoration: none; font-size: 13px; border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px 4px 5px; }
+.nc-badge:hover { color: var(--ink); border-color: var(--green); }
+.nc-badge b { color: var(--ink); font-weight: 600; }
+.nc-mark { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 7px; background: var(--green); color: #fff; font: 400 9px/1 Anton, Impact, "Arial Narrow", sans-serif; letter-spacing: .04em; }
+.nc-foot { display: flex; justify-content: center; padding: 0 0 18px; }
+.setup-foot { margin-top: 48px; }
+.setup a:not(.nc-badge) { color: var(--green); font-weight: 600; text-decoration: none; }

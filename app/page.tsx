@@ -32,7 +32,16 @@ export default function Home() {
           </ul>
           <p className="hint">
             For example <code>https://api.openai.com/v1</code> with <code>gpt-4o-mini</code>, or{' '}
-            <code>https://api.groq.com/openai/v1</code> with a Llama model.
+            <code>https://api.groq.com/openai/v1</code> with a Llama model.{' '}
+            <a href="https://naijacloud.com/docs/deploy/environment-variables?ref=template-ai-chat-nextjs">
+              How to set variables on Naijacloud →
+            </a>
+          </p>
+          <p className="setup-foot">
+            <a className="nc-badge" href="https://naijacloud.com/?ref=template-ai-chat-nextjs">
+              <span className="nc-mark" aria-hidden="true">NC</span>
+              <span>Deployed on <b>Naijacloud</b></span>
+            </a>
           </p>
         </section>
       )}
